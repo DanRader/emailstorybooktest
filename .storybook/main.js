@@ -32,5 +32,6 @@ module.exports = {
   viteFinal: (config) => {
     config.base = process.env.BASE_PATH || '/';
     return config;
-  }
+  },
+  staticDirs: ['../public']
 };
