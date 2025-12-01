@@ -29,6 +29,10 @@ module.exports = {
       }
     </style>
   `,
+  previewHead: (head) => `
+    ${head}
+    <base href="${process.env.BASE_PATH || '/'}" />
+  `,
   viteFinal: (config) => {
     const basePath = process.env.BASE_PATH || '/';
     config.base = basePath;
