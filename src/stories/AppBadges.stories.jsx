@@ -22,9 +22,9 @@ export const Interactive = {
   args: {
     headline: 'Download the Etsy app',
     appStoreHref: 'https://apps.apple.com/etsy',
-    appStoreSrc: '/images/AppsStoreButton.png',
+    appStoreSrc: './images/AppsStoreButton.png',
     googlePlayHref: 'https://play.google.com/store/apps/etsy',
-    googlePlaySrc: '/images/GooglePlayButton.png'
+    googlePlaySrc: './images/GooglePlayButton.png'
   },
   argTypes: {
     headline: { control: 'text', description: 'Headline text above the app badges' },

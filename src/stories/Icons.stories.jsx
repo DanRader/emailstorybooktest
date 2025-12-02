@@ -41,24 +41,24 @@ export const EmailIcons = () => (
     
     <h2 style={{ fontFamily: 'Helvetica, Arial, sans-serif', marginBottom: '16px' }}>Social Media Icons</h2>
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '16px', marginBottom: '40px' }}>
-      <IconCard name="Facebook" src="/images/facebook.png" size="24" usage="Social footer" />
-      <IconCard name="Instagram" src="/images/instagram.png" size="24" usage="Social footer" />
-      <IconCard name="Pinterest" src="/images/pinterest.png" size="24" usage="Social footer" />
-      <IconCard name="Twitter" src="/images/twitter.png" size="24" usage="Social footer" />
-      <IconCard name="YouTube" src="/images/youtube.png" size="24" usage="Social footer" />
+      <IconCard name="Facebook" src="./images/facebook.png" size="24" usage="Social footer" />
+      <IconCard name="Instagram" src="./images/instagram.png" size="24" usage="Social footer" />
+      <IconCard name="Pinterest" src="./images/pinterest.png" size="24" usage="Social footer" />
+      <IconCard name="Twitter" src="./images/twitter.png" size="24" usage="Social footer" />
+      <IconCard name="YouTube" src="./images/youtube.png" size="24" usage="Social footer" />
     </div>
 
     <h2 style={{ fontFamily: 'Helvetica, Arial, sans-serif', marginBottom: '16px' }}>App Store Badges</h2>
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '16px', marginBottom: '40px' }}>
-      <IconCard name="Apple App Store" src="/images/appleAppStore.png" size="120" usage="App download" />
-      <IconCard name="Google Play" src="/images/googlePlay.png" size="135" usage="App download" />
+      <IconCard name="Apple App Store" src="./images/appleAppStore.png" size="120" usage="App download" />
+      <IconCard name="Google Play" src="./images/googlePlay.png" size="135" usage="App download" />
     </div>
 
     <h2 style={{ fontFamily: 'Helvetica, Arial, sans-serif', marginBottom: '16px' }}>Product & Category Icons</h2>
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '16px' }}>
-      <IconCard name="Expert Badge 1" src="/images/expert1.png" size="64" usage="Expert profiles" />
-      <IconCard name="Expert Badge 2" src="/images/expert2.png" size="64" usage="Expert profiles" />
-      <IconCard name="Expert Badge 3" src="/images/expert3.png" size="64" usage="Expert profiles" />
+      <IconCard name="Expert Badge 1" src="./images/expert1.png" size="64" usage="Expert profiles" />
+      <IconCard name="Expert Badge 2" src="./images/expert2.png" size="64" usage="Expert profiles" />
+      <IconCard name="Expert Badge 3" src="./images/expert3.png" size="64" usage="Expert profiles" />
     </div>
 
     <h2 style={{ fontFamily: 'Helvetica, Arial, sans-serif', marginTop: '48px', marginBottom: '16px' }}>Icon Guidelines</h2>

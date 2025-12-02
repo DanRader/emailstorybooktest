@@ -19,7 +19,7 @@ export default {
 
 export const Interactive = {
   args: {
-    avatarSrc: '/images/avatar.png',
+    avatarSrc: './images/avatar.png',
     name: 'Sarah Johnson',
     title: 'Senior Editor',
     quote: 'These handpicked items represent the best of what Etsy has to offer this season. Each piece tells a unique story.'

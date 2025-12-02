@@ -24,7 +24,7 @@ export default {
 export const Interactive = {
   args: {
     imageHref: 'https://www.etsy.com/invitations',
-    imageSrc: '/images/headline image.jpg',
+    imageSrc: './images/headline image.jpg',
     headlineHref: 'https://www.etsy.com/invitations',
     headline: 'Next up for you: Invitations',
     copyHref: 'https://www.etsy.com/personalized',

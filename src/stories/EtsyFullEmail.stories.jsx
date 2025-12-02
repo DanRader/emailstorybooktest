@@ -23,7 +23,7 @@ export default {
 export const EtsyNewsletter = {
   args: {
     // Top Nav
-    logoSrc: '/images/etsy logo.gif',
+    logoSrc: './images/etsy logo.gif',
     logoHref: 'https://www.etsy.com',
     navLink1Href: 'https://www.etsy.com/cyber-deals',
     navLink1Text: 'Cyber Deals',
@@ -33,11 +33,11 @@ export const EtsyNewsletter = {
     navLink3Text: 'Holiday Hub',
     
     // Promo Ribbon
-    promoImageSrc: '/images/banner.gif',
+    promoImageSrc: './images/banner.gif',
     promoHref: 'https://www.etsy.com/spring-sale',
     
     // Hero
-    heroImageSrc: '/images/headline image.jpg',
+    heroImageSrc: './images/headline image.jpg',
     heroHeadline: 'Next up for you: Invitations',
     heroCopy: 'Discover your personalized roundup of Etsy finds, here to brighten your day.',
     heroCtaLabel: 'Shop now',
@@ -46,7 +46,7 @@ export const EtsyNewsletter = {
     gridCtaLabel: 'Shop all',
     
     // Expert Section
-    expertAvatarSrc: '/images/avatar.png',
+    expertAvatarSrc: './images/avatar.png',
     expertName: 'Sarah Johnson',
     expertTitle: 'Senior Editor',
     expertQuote: 'These handpicked items represent the best of what Etsy has to offer this season.',
@@ -115,13 +115,13 @@ export const EtsyNewsletter = {
         items={[
           {
             href: '#',
-            imageSrc: '/images/gridImage1.jpg',
+            imageSrc: './images/gridImage1.jpg',
             itemName: 'Handmade Ceramic Vase',
             shopName: 'ArtisanPottery'
           },
           {
             href: '#',
-            imageSrc: '/images/gridImage2.jpg',
+            imageSrc: './images/gridImage2.jpg',
             itemName: 'Wooden Serving Bowl',
             shopName: 'WoodworksCo'
           }
@@ -130,7 +130,7 @@ export const EtsyNewsletter = {
       />
       
       <SectionHeader 
-        imageSrc="/images/shapeImage.png"
+        imageSrc="./images/shapeImage.png"
         alt="Expert Picks"
       />
       
@@ -149,13 +149,13 @@ export const EtsyNewsletter = {
         items={[
           {
             href: '#',
-            imageSrc: '/images/gridImage3.jpg',
+            imageSrc: './images/gridImage3.jpg',
             itemName: 'Vintage Art Print',
             shopName: 'RetroGallery'
           },
           {
             href: '#',
-            imageSrc: '/images/gridImage4.jpg',
+            imageSrc: './images/gridImage4.jpg',
             itemName: 'Leather Messenger Bag',
             shopName: 'CraftedLeather'
           }
@@ -164,7 +164,7 @@ export const EtsyNewsletter = {
       />
       
       <PromoBanner 
-        imageSrc="/images/bannerImage.png"
+        imageSrc="./images/bannerImage.png"
         headline={args.promoBannerHeadline}
         copy={args.promoBannerCopy}
         linkText="Learn more"
@@ -177,18 +177,18 @@ export const EtsyNewsletter = {
       <SocialFooter 
         headline={args.socialHeadline}
         socialLinks={[
-          { href: '#', iconSrc: '/images/social-Facebook.png', alt: 'Facebook' },
-          { href: '#', iconSrc: '/images/social-Instagram.png', alt: 'Instagram' },
-          { href: '#', iconSrc: '/images/social-Threads.png', alt: 'Threads' },
-          { href: '#', iconSrc: '/images/social-Pinterest.png', alt: 'Pinterest' },
-          { href: '#', iconSrc: '/images/social-tickTock.png', alt: 'TikTok' }
+          { href: '#', iconSrc: './images/social-Facebook.png', alt: 'Facebook' },
+          { href: '#', iconSrc: './images/social-Instagram.png', alt: 'Instagram' },
+          { href: '#', iconSrc: './images/social-Threads.png', alt: 'Threads' },
+          { href: '#', iconSrc: './images/social-Pinterest.png', alt: 'Pinterest' },
+          { href: '#', iconSrc: './images/social-tickTock.png', alt: 'TikTok' }
         ]}
       />
       
       <AppBadges 
         headline={args.appBadgeHeadline}
-        appStoreSrc="/images/AppsStoreButton.png"
-        googlePlaySrc="/images/GooglePlayButton.png"
+        appStoreSrc="./images/AppsStoreButton.png"
+        googlePlaySrc="./images/GooglePlayButton.png"
       />
       
       <ComplianceFooter 

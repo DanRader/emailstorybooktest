@@ -23,7 +23,7 @@ export default {
 
 export const Interactive = {
   args: {
-    logoSrc: '/images/etsy logo.gif',
+    logoSrc: './images/etsy logo.gif',
     logoHref: 'https://www.etsy.com',
     link1Href: 'https://www.etsy.com/shop',
     link1Text: 'Shop',

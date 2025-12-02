@@ -21,13 +21,13 @@ export const Interactive = {
     items: [
       {
         href: 'https://www.etsy.com/product1',
-        imageSrc: '/images/gridImage5.png',
+        imageSrc: './images/gridImage5.png',
         itemName: 'Vintage Art Print',
         shopName: 'RetroGallery'
       },
       {
         href: 'https://www.etsy.com/product2',
-        imageSrc: '/images/gridImage6.png',
+        imageSrc: './images/gridImage6.png',
         itemName: 'Leather Messenger Bag',
         shopName: 'CraftedLeather'
       }

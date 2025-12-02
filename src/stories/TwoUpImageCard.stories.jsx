@@ -20,7 +20,7 @@ export default {
 export const Interactive = {
   args: {
     href: 'https://www.etsy.com/product',
-    imageSrc: '/images/gridImage5.png',
+    imageSrc: './images/gridImage5.png',
     itemName: 'Handmade Product',
     shopName: 'Artisan Shop'
   },

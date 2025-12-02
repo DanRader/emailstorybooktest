@@ -36,17 +36,17 @@ export const EmailIllustrations = () => (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '32px' }}>
       <IllustrationCard 
         name="Banner Shape"
-        src="/images/bannerImage.png"
+        src="./images/bannerImage.png"
         description="Promotional banner accent graphic"
       />
       <IllustrationCard 
         name="Hero Background"
-        src="/images/heroImage.png"
+        src="./images/heroImage.png"
         description="Main hero section background"
       />
       <IllustrationCard 
         name="Shape Accent"
-        src="/images/shapeImage.png"
+        src="./images/shapeImage.png"
         description="Generic shape for visual interest"
       />
     </div>

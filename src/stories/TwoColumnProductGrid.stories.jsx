@@ -21,13 +21,13 @@ export const Interactive = {
     items: [
       {
         href: 'https://www.etsy.com/product1',
-        imageSrc: '/images/gridImage1.jpg',
+        imageSrc: './images/gridImage1.jpg',
         itemName: 'Handmade Ceramic Vase',
         shopName: 'ArtisanPottery'
       },
       {
         href: 'https://www.etsy.com/product2',
-        imageSrc: '/images/gridImage2.jpg',
+        imageSrc: './images/gridImage2.jpg',
         itemName: 'Wooden Serving Bowl',
         shopName: 'WoodworksCo'
       }

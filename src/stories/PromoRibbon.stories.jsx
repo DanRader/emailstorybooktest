@@ -19,7 +19,7 @@ export default {
 export const Interactive = {
   args: {
     href: 'https://www.etsy.com/promo',
-    imageSrc: '/images/banner.gif',
+    imageSrc: './images/banner.gif',
     alt: 'Promotional Banner'
   },
   argTypes: {

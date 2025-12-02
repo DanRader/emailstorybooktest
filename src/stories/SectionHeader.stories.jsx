@@ -17,7 +17,7 @@ export default {
 
 export const Interactive = {
   args: {
-    imageSrc: '/images/shapeImage.png',
+    imageSrc: './images/shapeImage.png',
     alt: 'Section Header'
   },
   argTypes: {
