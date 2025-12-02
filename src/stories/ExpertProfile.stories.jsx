@@ -2,7 +2,7 @@ import React from 'react';
 import { ExpertProfile, ExpertProfileHTML } from '../components/ExpertProfile';
 
 export default {
-  title: 'Etsy Components/ExpertProfile',
+  title: 'Modules/ExpertProfile',
   component: ExpertProfile,
   parameters: {
     layout: 'centered',

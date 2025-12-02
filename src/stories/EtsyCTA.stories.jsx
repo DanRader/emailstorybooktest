@@ -1,8 +1,8 @@
 import React from 'react';
 import { EtsyCTA, EtsyCTAHTML } from '../components/EtsyCTA';
 
-export default {
-  title: 'Etsy Components/EtsyCTA',
+const meta = {
+  title: 'Foundations & Components/Button',
   component: EtsyCTA,
   parameters: {
     layout: 'centered',
@@ -14,9 +14,6 @@ export default {
       ),
     },
   },
-};
-
-export const Interactive = {
   args: {
     children: 'Shop now',
     href: 'https://www.etsy.com',
@@ -33,20 +30,6 @@ export const Interactive = {
   render: (args) => <EtsyCTA {...args} />
 };
 
-export const Primary = {
-  args: {
-    children: 'Primary Button',
-    href: '#',
-    variant: 'primary'
-  },
-  render: (args) => <EtsyCTA {...args} />
-};
+export default meta;
 
-export const Secondary = {
-  args: {
-    children: 'Secondary Button',
-    href: '#',
-    variant: 'secondary'
-  },
-  render: (args) => <EtsyCTA {...args} />
-};
+export const Default = {};

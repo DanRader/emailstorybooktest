@@ -2,7 +2,7 @@ import React from 'react';
 import { PersonalizedHero, PersonalizedHeroHTML } from '../components/PersonalizedHero';
 
 export default {
-  title: 'Etsy Components/PersonalizedHero',
+  title: 'Modules/PersonalizedHero',
   component: PersonalizedHero,
   parameters: {
     layout: 'centered',

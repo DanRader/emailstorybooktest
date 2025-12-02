@@ -2,7 +2,7 @@ import React from 'react';
 import { PromoBanner, PromoBannerHTML } from '../components/PromoBanner';
 
 export default {
-  title: 'Etsy Components/PromoBanner',
+  title: 'Modules/PromoBanner',
   component: PromoBanner,
   parameters: {
     layout: 'centered',

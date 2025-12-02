@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBadges, AppBadgesHTML } from '../components/AppBadges';
 
 export default {
-  title: 'Etsy Components/AppBadges',
+  title: 'Modules/AppBadges',
   component: AppBadges,
   parameters: {
     layout: 'centered',

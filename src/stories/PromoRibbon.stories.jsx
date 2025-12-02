@@ -2,7 +2,7 @@ import React from 'react';
 import { PromoRibbon, PromoRibbonHTML } from '../components/PromoRibbon';
 
 export default {
-  title: 'Etsy Components/PromoRibbon',
+  title: 'Modules/PromoRibbon',
   component: PromoRibbon,
   parameters: {
     layout: 'centered',

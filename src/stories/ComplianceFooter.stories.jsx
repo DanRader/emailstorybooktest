@@ -2,7 +2,7 @@ import React from 'react';
 import { ComplianceFooter, ComplianceFooterHTML } from '../components/ComplianceFooter';
 
 export default {
-  title: 'Etsy Components/ComplianceFooter',
+  title: 'Modules/ComplianceFooter',
   component: ComplianceFooter,
   parameters: {
     layout: 'centered',

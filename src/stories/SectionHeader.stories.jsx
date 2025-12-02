@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionHeader, SectionHeaderHTML } from '../components/SectionHeader';
 
 export default {
-  title: 'Etsy Components/SectionHeader',
+  title: 'Modules/SectionHeader',
   component: SectionHeader,
   parameters: {
     layout: 'centered',

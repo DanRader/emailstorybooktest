@@ -14,7 +14,7 @@ import AppBadges from '../components/AppBadges';
 import ComplianceFooter from '../components/ComplianceFooter';
 
 export default {
-  title: 'Etsy Templates/Full Email',
+  title: 'Compositions/Full Email',
   parameters: {
     layout: 'fullscreen',
   },

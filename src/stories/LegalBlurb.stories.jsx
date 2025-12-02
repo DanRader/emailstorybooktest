@@ -2,7 +2,7 @@ import React from 'react';
 import { LegalBlurb, LegalBlurbHTML } from '../components/LegalBlurb';
 
 export default {
-  title: 'Etsy Components/LegalBlurb',
+  title: 'Modules/LegalBlurb',
   component: LegalBlurb,
   parameters: {
     layout: 'centered',

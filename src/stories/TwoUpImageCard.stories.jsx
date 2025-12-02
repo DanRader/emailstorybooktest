@@ -2,7 +2,7 @@ import React from 'react';
 import { TwoUpImageCard, TwoUpImageCardHTML } from '../components/TwoUpImageCard';
 
 export default {
-  title: 'Etsy Components/TwoUpImageCard',
+  title: 'Modules/TwoUpImageCard',
   component: TwoUpImageCard,
   parameters: {
     layout: 'centered',

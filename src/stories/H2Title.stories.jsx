@@ -2,7 +2,7 @@ import React from 'react';
 import { H2Title, H2TitleHTML } from '../components/H2Title';
 
 export default {
-  title: 'Etsy Components/H2Title',
+  title: 'Modules/H2Title',
   component: H2Title,
   parameters: {
     layout: 'centered',

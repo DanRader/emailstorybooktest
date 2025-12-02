@@ -2,7 +2,7 @@ import React from 'react';
 import { SocialFooter, SocialFooterHTML } from '../components/SocialFooter';
 
 export default {
-  title: 'Etsy Components/SocialFooter',
+  title: 'Modules/SocialFooter',
   component: SocialFooter,
   parameters: {
     layout: 'centered',

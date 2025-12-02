@@ -2,7 +2,7 @@ import React from 'react';
 import { TwoColumnProductGrid, TwoColumnProductGridHTML } from '../components/TwoColumnProductGrid';
 
 export default {
-  title: 'Etsy Components/TwoColumnProductGrid',
+  title: 'Modules/TwoColumnProductGrid',
   component: TwoColumnProductGrid,
   parameters: {
     layout: 'centered',

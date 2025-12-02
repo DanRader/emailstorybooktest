@@ -2,7 +2,7 @@ import React from 'react';
 import { ExpertPicksGrid, ExpertPicksGridHTML } from '../components/ExpertPicksGrid';
 
 export default {
-  title: 'Etsy Components/ExpertPicksGrid',
+  title: 'Modules/ExpertPicksGrid',
   component: ExpertPicksGrid,
   parameters: {
     layout: 'centered',

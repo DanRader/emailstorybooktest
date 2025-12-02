@@ -2,7 +2,7 @@ import React from 'react';
 import { TopNav, TopNavHTML } from '../components/TopNav';
 
 export default {
-  title: 'Etsy Components/TopNav',
+  title: 'Modules/TopNav',
   component: TopNav,
   parameters: {
     layout: 'fullscreen',
